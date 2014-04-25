@@ -12,7 +12,7 @@ def get_project_list(config):
         projects = os.listdir(eggs_dir)
     else:
         projects = []
-    print projects
+
     return projects
 
 def get_spider_queues(config):
